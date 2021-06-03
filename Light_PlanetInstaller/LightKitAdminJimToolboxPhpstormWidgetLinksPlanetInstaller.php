@@ -21,7 +21,7 @@ class LightKitAdminJimToolboxPhpstormWidgetLinksPlanetInstaller extends LightBas
     /**
      * @implementation
      */
-    public function init2(string $appDir, OutputInterface $output): void
+    public function init2(string $appDir, OutputInterface $output, array $options = []): void
     {
 
 
@@ -52,7 +52,7 @@ class LightKitAdminJimToolboxPhpstormWidgetLinksPlanetInstaller extends LightBas
     /**
      * @implementation
      */
-    public function undoInit2(string $appDir, OutputInterface $output): void
+    public function undoInit2(string $appDir, OutputInterface $output, array $options = []): void
     {
 
 
