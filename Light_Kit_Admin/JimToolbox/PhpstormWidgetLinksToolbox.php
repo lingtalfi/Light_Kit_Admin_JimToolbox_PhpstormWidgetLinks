@@ -5,7 +5,7 @@ namespace Ling\Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks\Light_Kit_Admin\Ji
 
 
 use Ling\BabyYaml\BabyYamlUtil;
-use Ling\Light_Kit_Admin\JimToolbox\JimToolboxItemBaseHandler;
+use Ling\Light_JimToolbox\Item\JimToolboxItemBaseHandler;
 use Ling\Light_Kit_Admin_DebugTrace\Service\LightKitAdminDebugTraceService;
 use Ling\Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks\Exception\LightKitAdminJimToolboxPhpstormWidgetLinksException;
 

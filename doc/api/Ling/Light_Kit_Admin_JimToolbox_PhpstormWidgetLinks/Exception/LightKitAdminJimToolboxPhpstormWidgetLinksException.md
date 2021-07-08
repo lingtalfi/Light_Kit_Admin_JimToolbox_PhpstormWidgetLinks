@@ -4,7 +4,7 @@
 
 The LightKitAdminJimToolboxPhpstormWidgetLinksException class
 ================
-2021-05-02 --> 2021-06-03
+2021-05-02 --> 2021-07-08
 
 
 

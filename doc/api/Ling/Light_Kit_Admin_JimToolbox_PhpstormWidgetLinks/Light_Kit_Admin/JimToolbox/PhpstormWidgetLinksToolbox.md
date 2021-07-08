@@ -4,7 +4,7 @@
 
 The PhpstormWidgetLinksToolbox class
 ================
-2021-05-02 --> 2021-06-03
+2021-05-02 --> 2021-07-08
 
 
 
@@ -22,7 +22,7 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">PhpstormWidgetLinksToolbox</span> extends [JimToolboxItemBaseHandler](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/JimToolbox/JimToolboxItemBaseHandler.md) implements [LightServiceContainerAwareInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md), [JimToolboxItemHandlerInterface](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/JimToolbox/JimToolboxItemHandlerInterface.md) {
+class <span class="pl-k">PhpstormWidgetLinksToolbox</span> extends [JimToolboxItemBaseHandler](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Item/JimToolboxItemBaseHandler.md) implements [LightServiceContainerAwareInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md), [JimToolboxItemHandlerInterface](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Item/JimToolboxItemHandlerInterface.md) {
 
 - Inherited properties
     - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [JimToolboxItemBaseHandler::$container](#property-container) ;

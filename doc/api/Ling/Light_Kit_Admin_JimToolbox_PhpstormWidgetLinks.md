@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks
 ================
-2021-05-02 --> 2021-06-03
+2021-05-02 --> 2021-07-08
 
 
 
@@ -25,7 +25,7 @@ Dependencies
 ============
 - [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [CliTools](https://github.com/lingtalfi/CliTools)
-- [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
+- [Light_JimToolbox](https://github.com/lingtalfi/Light_JimToolbox)
 - [Light_Kit_Admin_DebugTrace](https://github.com/lingtalfi/Light_Kit_Admin_DebugTrace)
 - [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 

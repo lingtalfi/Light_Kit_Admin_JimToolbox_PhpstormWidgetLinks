@@ -6,7 +6,7 @@ namespace Ling\Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks\Light_PlanetInstal
 
 use Ling\CliTools\Helper\QuestionHelper;
 use Ling\CliTools\Output\OutputInterface;
-use Ling\Light_Kit_Admin\Service\LightKitAdminService;
+use Ling\Light_JimToolbox\Service\LightJimToolboxService;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightBasePlanetInstaller;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit2HookInterface;
 
@@ -33,10 +33,10 @@ class LightKitAdminJimToolboxPhpstormWidgetLinksPlanetInstaller extends LightBas
 
 
         /**
-         * @var $lka LightKitAdminService
+         * @var $_ji LightJimToolboxService
          */
-        $lka = $this->container->get("kit_admin");
-        $lka->registerJimToolboxItem("phpstorm_links", [
+        $_ji = $this->container->get("jim_toolbox");
+        $_ji->registerJimToolboxItem("phpstorm_links", [
             'label' => 'ide links',
             'icon' => 'fas fa-code',
             'acp_class' => 'Ling\Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks\Light_Kit_Admin\JimToolbox\PhpstormWidgetLinksToolbox',
@@ -59,10 +59,10 @@ class LightKitAdminJimToolboxPhpstormWidgetLinksPlanetInstaller extends LightBas
         $planetDotName = "Ling.Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks";
 
         /**
-         * @var $lka LightKitAdminService
+         * @var $_ji LightJimToolboxService
          */
-        $lka = $this->container->get("kit_admin");
-        $found = $lka->unregisterJimToolboxItem("phpstorm_links");
+        $_ji = $this->container->get("jim_toolbox");
+        $found = $_ji->unregisterJimToolboxItem("phpstorm_links");
         if (true === $found) {
             $output->write("<success>The <b>$planetDotName</b> jim toolbox conf has been removed successfully.</success>" . PHP_EOL);
         } else {
