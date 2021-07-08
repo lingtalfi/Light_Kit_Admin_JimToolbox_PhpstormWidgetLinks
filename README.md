@@ -57,6 +57,10 @@ Screenshots
 History Log
 =============
 
+- 1.0.5 -- 2021-07-08
+
+    - update PhpstormWidgetLinksToolbox, now inherits from equivalent from Ling.Light_Kit_JimToolbox_PhpstormWidgetLinks
+  
 - 1.0.4 -- 2021-07-08
 
     - adapt api to work with Ling.Light_Kit_Admin:0.13.5
